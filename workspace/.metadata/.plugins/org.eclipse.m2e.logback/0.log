@@ -1,0 +1,82 @@
+2023-03-10 08:36:52,444 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 08:37:25,702 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: mvn.spring.docker.kube:mvn-spring-docker-kube:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\pom.xml.
+2023-03-10 08:37:25,930 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.usuarios.server:ms-usuarios-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\pom.xml.
+2023-03-10 08:37:26,174 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.cursos.server:ms-cursos-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\pom.xml.
+2023-03-10 08:37:27,207 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-usuarios-server/src/main/java
+2023-03-10 08:37:27,208 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-usuarios-server/src/main/resources
+2023-03-10 08:37:27,208 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-usuarios-server/src/main/resources
+2023-03-10 08:37:27,209 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-usuarios-server/src/test/java
+2023-03-10 08:37:28,002 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-cursos-server/src/main/java
+2023-03-10 08:37:28,002 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-cursos-server/src/main/resources
+2023-03-10 08:37:28,002 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-cursos-server/src/main/resources
+2023-03-10 08:37:28,004 [Worker-32: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-cursos-server/src/test/java
+2023-03-10 08:37:28,337 [Worker-32: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 4 sec
+2023-03-10 08:37:28,514 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-10 08:37:28,797 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ms.cursos.server:ms-cursos-server:0.0.1-SNAPSHOT @ C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\pom.xml.
+2023-03-10 08:37:29,335 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-cursos-server/src/main/java
+2023-03-10 08:37:29,335 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-cursos-server/src/main/resources
+2023-03-10 08:37:29,336 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ms-cursos-server/src/main/resources
+2023-03-10 08:37:29,336 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ms-cursos-server/src/test/java
+2023-03-10 08:37:29,764 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-10 08:58:24,585 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 14:13:29,189 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 14:13:50,516 [Worker-12: Launching ms-cursos-server - MsCursosServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 14:13:50,531 [Worker-12: Launching ms-cursos-server - MsCursosServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 14:13:50,535 [Worker-12: Launching ms-cursos-server - MsCursosServerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-10 14:13:51,682 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 14:13:51,724 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 14:13:51,730 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 16:33:09,128 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 16:45:17,597 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 16:45:17,634 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 16:45:17,637 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 17:00:37,320 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:00:37,320 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:00:37,323 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 17:01:38,294 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:01:38,295 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:01:38,296 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 17:04:17,551 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:04:17,551 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:04:17,552 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 17:06:39,726 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 17:48:37,824 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 17:48:37,841 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 17:48:37,848 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-10 18:45:04,157 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 18:46:01,594 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 18:46:01,623 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 18:46:01,629 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-10 19:07:53,182 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 19:07:53,182 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 19:07:53,184 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-10 19:08:34,334 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 19:08:34,354 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 19:08:34,357 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-10 19:09:12,552 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 19:09:12,552 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 19:09:12,554 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-10 22:44:44,697 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-10 22:56:33,114 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-10 22:56:33,128 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-10 22:56:33,131 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-15 17:48:57,343 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-15 17:53:03,022 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-15 18:08:25,278 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 18:08:25,292 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:08:25,295 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-cursos-server\src\test\resources
+2023-03-15 18:08:25,696 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-15 18:08:25,722 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:08:25,726 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-15 18:12:11,658 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:12:11,658 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:12:11,660 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-15 18:43:32,498 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:43:32,498 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 18:43:32,500 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-15 19:06:42,807 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:06:42,807 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-15 19:06:42,809 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fanta\Documents\10.-SPRING_DOCKER_KUBERNETES_V2\mvn-spring-docker-kube\ms-usuarios-server\src\test\resources
+2023-03-24 13:50:42,905 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-17 21:02:26,568 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-20 17:03:25,722 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

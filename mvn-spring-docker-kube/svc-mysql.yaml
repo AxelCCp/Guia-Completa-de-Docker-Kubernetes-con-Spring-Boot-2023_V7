@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql8
+  uid: fe005bfc-1229-4183-a9bf-31ac7facf344
+spec:
+  ports:
+  - port: 3306
+    protocol: TCP
+    targetPort: 3306
+  selector:
+    app: mysql8
+  type: ClusterIP

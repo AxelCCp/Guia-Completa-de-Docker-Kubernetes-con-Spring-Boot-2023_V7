@@ -1,0 +1,23 @@
+2023-05-28T23:48:12.102Z  INFO 1 --- [main] m.u.server.MsUsuariosServerApplication   : Starting MsUsuariosServerApplication v0.0.1-SNAPSHOT using Java 17-ea with PID 1 (/app/ms-usuarios-server-0.0.1-SNAPSHOT.jar started by root in /app)
+2023-05-28T23:48:12.105Z  INFO 1 --- [main] m.u.server.MsUsuariosServerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-05-28T23:48:12.857Z  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-28T23:48:12.935Z  INFO 1 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2023-05-28T23:48:13.139Z  INFO 1 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ecabae1f-41f9-35cc-9e86-f96a74ee4679
+2023-05-28T23:48:13.199Z  INFO 1 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'ms.usuarios.server.feignclients.ICursoFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-28T23:48:13.571Z  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-05-28T23:48:13.582Z  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-28T23:48:13.582Z  INFO 1 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-28T23:48:13.664Z  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-28T23:48:13.664Z  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1501 ms
+2023-05-28T23:48:13.823Z  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-28T23:48:14.181Z  INFO 1 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b0f7d9d
+2023-05-28T23:48:14.184Z  INFO 1 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-28T23:48:14.224Z  INFO 1 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-28T23:48:14.285Z  INFO 1 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-28T23:48:14.713Z  INFO 1 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-28T23:48:14.715Z  WARN 1 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-05-28T23:48:15.369Z  INFO 1 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-28T23:48:15.377Z  INFO 1 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-28T23:48:15.966Z  WARN 1 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-28T23:48:16.532Z  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-05-28T23:48:16.552Z  INFO 1 --- [main] m.u.server.MsUsuariosServerApplication   : Started MsUsuariosServerApplication in 4.886 seconds (process running for 5.462)
