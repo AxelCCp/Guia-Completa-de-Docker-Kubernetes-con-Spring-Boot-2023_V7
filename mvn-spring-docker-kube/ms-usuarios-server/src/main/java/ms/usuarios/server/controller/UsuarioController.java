@@ -12,6 +12,7 @@ import ms.usuarios.server.models.service.IUsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -39,9 +40,22 @@ public class UsuarioController {
 	//-------------------------- CLASE 136 
 	
 	
+	//CLASE 158-------------------------------
+	
+	@Autowired
+	private Environment env;
+	
+	//--------------------------158
+	
+	
 	@GetMapping("/listar")
-	public Map<String,List<Usuario>>listar(){
-		return Collections.singletonMap("usuarios", usuarioService.listar());
+	public Map<String, Object>listar(){
+		
+		Map<String, Object> body = new HashMap<>();
+		body.put("users", usuarioService.listar());
+		body.put("podinfo", env.getProperty("MY_POD_NAME") + ": " + env.getProperty("MY_POD_IP"));
+		//return Collections.singletonMap("usuarios", usuarioService.listar());
+		return body;
 	}
 	
 	
