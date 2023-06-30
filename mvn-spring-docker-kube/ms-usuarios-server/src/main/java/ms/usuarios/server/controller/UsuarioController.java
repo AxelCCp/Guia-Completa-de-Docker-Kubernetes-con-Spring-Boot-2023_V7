@@ -54,6 +54,7 @@ public class UsuarioController {
 		Map<String, Object> body = new HashMap<>();
 		body.put("users", usuarioService.listar());
 		body.put("podinfo", env.getProperty("MY_POD_NAME") + ": " + env.getProperty("MY_POD_IP"));
+		body.put("texto", env.getProperty("config.texto"));
 		//return Collections.singletonMap("usuarios", usuarioService.listar());
 		return body;
 	}

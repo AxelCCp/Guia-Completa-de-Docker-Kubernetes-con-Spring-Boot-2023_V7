@@ -9,6 +9,23 @@ data:
   #username: root
   #password: sasa
   curso_url: ms-cursos-server:8002
+  ms-usuarios-server.yaml: |-
+    config:
+      texto: Configurando ambiente por defecto
+    ---
+    spring:
+      config:
+        activate:
+          on-profile: dev
+    config:
+      texto: Configurando ambiende de desarrollo
+    ---
+    spring:
+      config:
+        activate:
+          on-profile: prod
+    config:
+      texto: Configurando ambiende de produccion        
 ---
 apiVersion: v1
 kind: ConfigMap
