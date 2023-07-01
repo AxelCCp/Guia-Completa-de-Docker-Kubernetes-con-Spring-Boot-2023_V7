@@ -20,6 +20,7 @@
   <modules>
 	  <module>ms-usuarios-server</module>
 	  <module>ms-cursos-server</module>
+	  <module>ms-gateway-server</module>
   </modules>
   
   
